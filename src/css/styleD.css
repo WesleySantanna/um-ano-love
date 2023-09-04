@@ -1,0 +1,138 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #e5e5e5;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  header {
+    background-color: #111111;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .pesquisa{
+    color:#e5e5e5;
+    transition: 0.1s;
+  }
+  .pesquisa :hover{ 
+    color: rgba(180, 180, 180, 0.322);
+  }
+  .notificacao{
+    color: #e5e5e5;
+  }
+  .notificacao :hover{
+    color: rgba(180, 180, 180, 0.322);
+  }
+  
+  .logo img {
+    width: 160px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 15px;
+    transition: 0.1s;
+  }
+
+  nav li a:hover {
+    color: rgba(180, 180, 180, 0.322); 
+  }
+ 
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .movie-list {
+    display: inline-block;
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+  
+  .movie { 
+    text-align: center;
+    margin-bottom: 20px;  
+  }
+  
+  .movie img {
+    margin-right: 3px;
+    display: inline;
+    justify-content: center; 
+    flex-direction: column;   
+    margin-top: 30px;
+    width:230px; 
+    height:230px ;
+  }
+
+  .movie a{
+    transition: transform 0.3s;
+  }
+
+  
+  .movie a img:hover{
+    transform: scale(1.2);
+    border-radius: 5%;
+  }
+   
+  .featured-movie {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #000000;
+    color: white;
+}
+
+.movie-details {
+    flex: 1;
+}
+
+.movie-details p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.filme-destaque img {
+    margin: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+#botaoAbrirVideo {
+  margin: 50px;
+  background-color: #ff0000;
+  color: #000000;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10% 30%;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s all ease-in-out;
+}
